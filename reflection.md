@@ -41,7 +41,7 @@ I decided whether the bug was really fixed by trrying the app itself, in each mo
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
 
----
+Looking at this question, I did not notice that the secret number was changing at all. So, I tried testing streamlit to see for myself. It was not changing for me, the secret number stayed the same the whole game. It is possible AI fixed it without me noticing, I will keep this in mind next time.
 
 ## 5. Looking ahead: your developer habits
 
@@ -49,3 +49,5 @@ I decided whether the bug was really fixed by trrying the app itself, in each mo
    - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+For prompting strategy, I think longer and detailed prompt gives the best result. I noticed that the prompt does not have to be perfect, but if you list out the problems with details, it solves it immidiatelty. Claude has option for "Ask before edits" and "Plan mode". I tried both, and I am leaning towards plan mode because I could actually see the code that's being changed with explination. So, maybe next project I'll use plan mode mode often. This project made me realize how easy it is to debug, you could give a prompt from a user's perspective and it will fixed AI for you.
