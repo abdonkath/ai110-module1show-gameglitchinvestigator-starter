@@ -8,11 +8,13 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
-the program is saying lower when i entered the number but the correct number is higher than my guess
-when i press new game the correct number change but i cant input anything
-first guess is not recording in history
-the range of easy, medium, and hard is incorect
-the attempts left does not decrement on the first guess
+The program is saying lower when I entered the number but the correct number is higher than my guess.
+
+When I press new game the correct number changed but I couldn't input anything on the line.
+
+The first guess is not recording in history. The range of easy, medium, and hard is incorect
+
+The attempts left does not decrement on the first guess
 
 ---
 
