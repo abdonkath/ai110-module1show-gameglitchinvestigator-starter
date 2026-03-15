@@ -21,9 +21,8 @@ the attempts left does not decrement on the first guess
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-  correct
 
-## bad: first guess not recording in history[0], only start incrementing after second guess. ai said
+I used Claude. One suggestion that was correct was the range of each mode. AI was able to correctly point out which part were the ranges in the code and fixed them to correct range. One misleading was when the first guess is not recording in history, AI was suggesting that the issue was how the history was being appended. However, the real problem was history was being updated from starting index 0 after second guess, the first guess was never added.
 
 ## 3. Debugging and testing your fixes
 
@@ -32,7 +31,7 @@ the attempts left does not decrement on the first guess
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
----
+I decided whether the bug was really fixed by trrying the app itself, in each mode, multiple times and looking at the code itself after. I ran manual test by starting new game, and entering first guess, and checking where it will appear in history. The history was empty and only starts appedning on second guess. This showed me that the history update logic was being skipped on the first try.
 
 ## 4. What did you learn about Streamlit and state?
 
