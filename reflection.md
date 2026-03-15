@@ -8,6 +8,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+the program is saying lower when i entered the number but the correct number is higher than my guess
+when i press new game the correct number change but i cant input anything
+first guess is not recording in history
+the range of easy, medium, and hard is incorect
+the attempts left does not decrement on the first guess
+
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -15,8 +21,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+  correct
 
----
+## bad: first guess not recording in history[0], only start incrementing after second guess. ai said
 
 ## 3. Debugging and testing your fixes
 
@@ -38,6 +45,6 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
